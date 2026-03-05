@@ -68,7 +68,7 @@ pip install lognorm
 ### From Source
 
 ```bash
-git clone https://github.com/YOURUSERNAME/lognorm.git
+git clone https://github.com/ethic-bakeery/lognorm.git
 cd lognorm
 python3 -m venv .venv
 source .venv/bin/activate
