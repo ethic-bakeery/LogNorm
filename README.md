@@ -461,18 +461,4 @@ LogNorm occupies a specific gap: **fast, local, structured, zero-config log norm
 
 ---
 
-## License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
-
-## Author
-
-Built by a cybersecurity practitioner for the security community.
-
-If this tool saves you time during an incident, consider starring the repo and sharing it with your team.
-
----
-
-*LogNorm — Because your logs deserve structure, and your analysts deserve speed.*
+*LogNorm -> Because your logs deserve structure, and your analysts deserve speed.*
