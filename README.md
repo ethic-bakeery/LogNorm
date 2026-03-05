@@ -1,6 +1,6 @@
 # LogNorm
 
-> **"jq for Security Logs"** — Convert raw Linux logs into structured, normalized output from a single command.
+> **"jq for Security Logs"**  Convert raw Linux logs into structured, normalized output from a single command.
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -11,7 +11,7 @@
 
 ## What Is LogNorm?
 
-LogNorm is a lightweight, stateless CLI tool built for **SOC analysts**, **security engineers**, and **cybersecurity students** who need fast, structured insight from raw Linux logs — without writing complex regex, awk, grep, or sed commands.
+LogNorm is a lightweight, stateless CLI tool built for **SOC analysts**, **security engineers**, and **cybersecurity students** who need fast, structured insight from raw Linux logs without writing complex regex, awk, grep, or sed commands.
 
 Instead of this:
 
@@ -46,14 +46,14 @@ Even experienced analysts struggle when switching between log types, handling in
 
 ## Key Features
 
-- **Auto-detection** — LogNorm identifies the log type automatically. No `--type` flag required.
-- **Normalized schema** — Every log, regardless of source, maps to the same consistent field names.
-- **Suspicious event detection** — Brute-force attempts, root logins, and privilege escalation are flagged automatically with plain-English reasons.
-- **Multiple output formats** — Rich terminal table, JSON Lines, and CSV — pipe-friendly by design.
-- **Streaming** — Handles large files without loading them fully into memory.
-- **Filter and search** — Filter by severity, user, IP, time range, or suspicious flag without post-processing.
-- **Student-friendly** — `lognorm explain` describes any log line in plain English.
-- **No infrastructure** — No daemon, no database, no config file required to get started.
+- **Auto-detection** LogNorm identifies the log type automatically. No `--type` flag required.
+- **Normalized schema** Every log, regardless of source, maps to the same consistent field names.
+- **Suspicious event detection** Brute-force attempts, root logins, and privilege escalation are flagged automatically with plain-English reasons.
+- **Multiple output formats** Rich terminal table, JSON Lines, and CSV pipe-friendly by design.
+- **Streaming** Handles large files without loading them fully into memory.
+- **Filter and search** Filter by severity, user, IP, time range, or suspicious flag without post-processing.
+- **Student-friendly** `lognorm explain` describes any log line in plain English.
+- **No infrastructure** No daemon, no database, no config file required to get started.
 
 ---
 
@@ -179,7 +179,7 @@ Display line N with a plain-English explanation of the event, extracted fields, 
 
 ## Output Schema
 
-Every log event — regardless of source — is normalized to the same schema:
+Every log event regardless of source is normalized to the same schema:
 
 ```json
 {
@@ -428,7 +428,7 @@ Contributions are welcome, especially new parser modules.
 
 ```bash
 # Fork and clone
-git clone https://github.com/YOURUSERNAME/lognorm.git
+git clone https://github.com/ethic-bakeery/lognorm.git
 cd lognorm
 
 # Set up environment
