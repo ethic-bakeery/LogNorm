@@ -384,7 +384,7 @@ That's the entire interface. LogNorm validates your parser on load and reports a
 
 **3. No infrastructure by default.** No daemon. No database. No config file required. Install and run in under two minutes.
 
-**4. Pipe-friendly output.** LogNorm is designed to be one step in a pipeline, not a destination. Clean JSON Lines output integrates with jq, DuckDB, Pandas, Splunk, Elastic, and anything else you already use.
+**4. Pipe friendly output.** LogNorm is designed to be one step in a pipeline, not a destination. Clean JSON Lines output integrates with jq, DuckDB, Pandas, Splunk, Elastic, and anything else you already use.
 
 **5. Analyst ergonomics first.** Every design decision is tested against one scenario: a tired analyst at 2am on an unfamiliar system during an incident. Speed-to-insight over completeness.
 
@@ -392,7 +392,7 @@ That's the entire interface. LogNorm validates your parser on load and reports a
 
 ## Roadmap
 
-### v1.0 — MVP (Current)
+### v1.0 MVP (Current)
 - [x] Auth.log, syslog, SSH parsing
 - [x] Normalized schema v1
 - [x] Rich table, JSON Lines, CSV output
@@ -401,19 +401,19 @@ That's the entire interface. LogNorm validates your parser on load and reports a
 - [x] Summary report
 - [x] Plugin system for custom parsers
 
-### v1.1 — Enrichment
+### v1.1 Enrichment
 - [ ] Apache and Nginx access log parsers
 - [ ] GeoIP lookup (`--enrich-geo`)
 - [ ] ASN lookup (`--enrich-asn`)
 - [ ] Risk scoring per event
 
-### v1.2 — AI Assist
+### v1.2 AI Assist
 - [ ] Unknown log format detection via LLM
 - [ ] Plain-English log summarization
 - [ ] MITRE ATT&CK tactic tagging
 - [ ] `lognorm explain` powered by AI
 
-### v2.0 — Extended Platform
+### v2.0 Extended Platform
 - [ ] journald support
 - [ ] Auditd support
 - [ ] Windows Event Log support
