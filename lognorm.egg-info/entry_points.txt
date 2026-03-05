@@ -1,0 +1,2 @@
+[console_scripts]
+lognorm = lognorm.cli.main:cli
